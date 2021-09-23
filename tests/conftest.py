@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from shiny_garbanzo import create_app
+from shiny_garbanzo.ext.commands import populate_db
+from shiny_garbanzo.ext.database import db
 
 
 @pytest.fixture(scope="session")
